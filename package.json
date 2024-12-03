@@ -1,0 +1,15 @@
+{
+  "name": "logagg",
+  "version": "1.0.0",
+  "description": "This project provides a text-based logistics assistant designed to process user input related to location queries. The assistant is capable of processing user requests involving geolocation within Nigeria, such as deliveries, route queries, and other logistics tasks. It generates JSON responses containing geolocation data, formatted for integration with services like the Google Location API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emmanuel Aderibigbe",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.8",
+    "readline": "^1.3.0"
+  }
+}
